@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>OctoGuard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 10px;
+        width: 300px;
+      }
+      .risk-safe {
+        color: green;
+      }
+      .risk-suspicious {
+        color: orange;
+      }
+      .risk-phishy {
+        color: red;
+      }
+      textarea {
+        width: 100%;
+        height: 60px;
+      }
+      button {
+        margin-top: 8px;
+        width: 100%;
+      }
+      .result {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>OctoGuard 🐙</h2>
+    <button id="analyze-tab">Analyze Current Tab</button>
+    <p>Or paste a suspicious URL/message:</p>
+    <textarea
+      id="input-text"
+      placeholder="Paste URL or message here..."
+    ></textarea>
+    <button id="analyze-text">Analyze Text</button>
+
+    <div class="result" id="result"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Env files
+.env
+backend/.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
