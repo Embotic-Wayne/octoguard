@@ -33,7 +33,7 @@ OctoGuard is a browser extension + backend service that helps non-technical user
   - Express
   - CORS
   - dotenv
-  - (Optional) OpenAI SDK for AI-powered analysis
+  - OpenAI SDK for AI-powered analysis
 
 - **Frontend (Extension)**
   - Chrome Extension (Manifest V3)
